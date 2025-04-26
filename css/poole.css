@@ -43,13 +43,15 @@
 
 html,
 body {
-  margin: 0;
+  margin: auto;
   padding: 0;
   height: 100%;
+  max-width: 80em;
 }
 
+/*"Helvetica Neue", Helvetica, Arial, Georgia, sans-serif;*/
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, Georgia, sans-serif;
+  font-family: "Helvetica";
   overscroll-behavior: none;
   line-height: 1.5;
   font-size: 15.36px;
@@ -146,7 +148,8 @@ strong {
 }
 
 .link:hover {
-  color: #268bd2 !important;
+  background-color: #268bd2;
+  color: #fff !important;
 }
 
 
@@ -277,7 +280,10 @@ table {
   border: .8px solid #e5e5e5;
   border-collapse: collapse;
 }
-td,
+td {
+  width: 4em;
+  padding: 0.5rem
+}
 th {
   padding: .25rem .5rem;
   border: .8px solid #e5e5e5;
@@ -456,7 +462,7 @@ tbody tr:nth-child(odd) th {
   color: #999;
 }
 .related-posts li a:hover {
-  color: #268bd2;
+  color: #fff;
   text-decoration: none;
 }
 .related-posts li a:hover small {
