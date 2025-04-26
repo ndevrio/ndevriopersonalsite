@@ -6,11 +6,7 @@ description: nathan's website
 
 <img src="{{ site.baseurl }}assets/propic_lab40.jpg" class="center" id="about"/>
 
-<<<<<<< HEAD
 **Hi, my name is Nathan.** I am a PhD student at the <a class="link" href="https://www.hcii.cmu.edu/" target="_blank">Human-Computer Interaction Institute</a> at Carnegie Mellon University. I am advised by <a class="link" href="https://www.chrisharrison.net/" target="_blank">Chris Harrison</a> and am a member of the <a class="link" href="http://www.figlab.com/" target="_blank">Future Interfaces Group</a>.
-=======
-**Hi, my name is Nathan.** I am a fifth-year Ph.D. student at the <a class="link" href="https://www.hcii.cmu.edu/" target="_blank">Human-Computer Interaction Institute</a> at Carnegie Mellon University. I am advised by <a class="link" href="https://www.chrisharrison.net/" target="_blank">Chris Harrison</a> and am a member of the <a class="link" href="http://www.figlab.com/" target="_blank">Future Interfaces Group</a>.
->>>>>>> 2d10fa123dd8b6dda99e2f4d0871da259eb517a8
 
 My research interests involve designing the next generation of interactive hardware technologies to address existing limitations in performance, capability, and usability. New interfaces should not just fix the shortcomings reported by users of current ones but also enable previously impossible and delightful forms of interaction. Application domains I touch upon include context-aware computing, AR/VR, and smart environments.
 
@@ -41,7 +37,6 @@ My research interests involve designing the next generation of interactive hardw
     <td><strong>N. DeVrio</strong>, V. Mollyn, C. Harrison, <em> VelociTrack: Touch Input On Uninstrumented Surfaces Using High-Speed Headset Cameras</em>, Proceedings of the ACM Symposium on User Interface Software and Technology. (UIST), 2025.</td>
 </tr>
 <tr>
-<<<<<<< HEAD
     <td></td>
     <td><strong>N. DeVrio</strong>, R. Boldu, E. Whitmire, W. Kienzle, <em> Contextra: Detecting Object Grasps With Low-Power Cameras and Sensor Fusion On the Wrist</em>, arXiv 2025.</td>
 </tr> -->
@@ -52,14 +47,6 @@ My research interests involve designing the next generation of interactive hardw
 <tr>
     <td><a href="https://www.youtube.com/watch?v=AHh2vYQVb_8" target="_blank"><img src="{{ site.baseurl }}assets/SmartPoserUIST23.gif" style="margin: 0 auto;"></a></td>
     <td><strong>*N. DeVrio</strong>, *V. Mollyn, C. Harrison, <a class="ref" href="https://dl.acm.org/doi/10.1145/3586183.3606821" target="_blank"><em>SmartPoser: Arm Pose Estimation With a Smartphone and Smartwatch Using UWB and IMU Data</em></a>, In Proceedings of the ACM Symposium on User Interface Software and Technology. (UIST), 2023.</td>
-=======
-    <td><img src="{{ site.baseurl }}assets/r7_pic_sm.jpg" style="margin: 0 auto;"></a></td>
-    <td><strong>N. DeVrio</strong>, C. Harrison, <em> Reel Feel: Rich Haptic XR Experiences Using an Active, Worn, Multi-String Device.</em></a>, In Proceedings of the ACM Conference on Human Factors in Computing. (CHI), 2025.</td>
-</tr>
-<tr>
-    <td><a href="https://www.youtube.com/watch?v=AHh2vYQVb_8" target="_blank"><img src="{{ site.baseurl }}assets/r6_pic_sm.jpg" style="margin: 0 auto;"></a></td>
-    <td><strong>*N. DeVrio</strong>, *V. Mollyn, C. Harrison, <a class="ref" href="https://dl.acm.org/doi/10.1145/3586183.3606821" target="_blank"><em>SmartPoser: Arm Pose Estimation With a Smartphone and Smartwatch Using UWB and IMU Data.</em></a>, In Proceedings of the ACM Symposium on User Interface Software and Technology. (UIST), 2023.</td>
->>>>>>> 2d10fa123dd8b6dda99e2f4d0871da259eb517a8
 </tr>
 <tr>
     <td><a href="https://www.youtube.com/watch?v=LVk6Yd1AAJg" target="_blank"><img src="{{ site.baseurl }}assets/DiscoBandUIST22.gif" style="margin: 0 auto;"></a></td>
