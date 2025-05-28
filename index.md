@@ -19,7 +19,7 @@ My research interests involve designing the next generation of interactive hardw
 
 <br/>
 <h2 id="research">research</h2>
-<hr style="margin-top:0;margin-bottom:0.5rem;border-width:thick;border-top: 3px solid dodgerblue;"> 
+<hr style="margin-top:0;margin-bottom:0.5rem;border-width:thick;border-top: 3px solid rgb(3, 81, 158);"> 
 
 <br/>
 
@@ -41,8 +41,8 @@ My research interests involve designing the next generation of interactive hardw
     <td><strong>N. DeVrio</strong>, R. Boldu, E. Whitmire, W. Kienzle, <em> Contextra: Detecting Object Grasps With Low-Power Cameras and Sensor Fusion On the Wrist</em>, arXiv 2025.</td>
 </tr> -->
 <tr>
-    <td><img src="{{ site.baseurl }}assets/ReelFeelCHI25.gif" style="margin: 0 auto;"></td>
-    <td><strong>N. DeVrio</strong>, C. Harrison, <a class="ref" href="https://dl.acm.org/doi/10.1145/3706598.3713615" target="_blank"><em> Reel Feel: Rich Haptic XR Experiences Using an Active, Worn, Multi-String Device</em></a>, In Proceedings of the ACM Conference on Human Factors in Computing. (CHI), 2025.</td>
+    <td><a href="https://www.youtube.com/watch?v=4uGOYUv-kN4" target="_blank"><img src="{{ site.baseurl }}assets/reelfeel_gif.gif" style="margin: 0 auto;"></a></td>
+    <td><strong>N. DeVrio</strong>, C. Harrison, <a class="ref" href="https://dl.acm.org/doi/10.1145/3706598.3713615" target="_blank"><em> Reel Feel: Rich Haptic XR Experiences Using an Active, Worn, Multi-String Device.</em></a>, In Proceedings of the ACM Conference on Human Factors in Computing. (CHI), 2025.</td>
 </tr>
 <tr>
     <td><a href="https://www.youtube.com/watch?v=AHh2vYQVb_8" target="_blank"><img src="{{ site.baseurl }}assets/SmartPoserUIST23.gif" style="margin: 0 auto;"></a></td>
@@ -71,12 +71,18 @@ My research interests involve designing the next generation of interactive hardw
 </table>
 
 
-<!--
+<!-- <br/>
 <h2 id="projects">projects</h2>
-<hr style="margin-top:0;margin-bottom:0.5rem;border-width:thick;border-top: 3px solid forestgreen;"> 
+<hr style="margin-top:0;margin-bottom:0.5rem;border-width:thick;border-top: 3px solid red;"> 
 <br/>
 _rebuilding this section, check back soon!_
--->
+
+
+<br/>
+<h2 id="resources">resources</h2>
+<hr style="margin-top:0;margin-bottom:0.5rem;border-width:thick;border-top: 3px solid grey"> 
+
+<br/> -->
 
 <div class="row center" style="margin-bottom: 4rem">
     <div class="column">
