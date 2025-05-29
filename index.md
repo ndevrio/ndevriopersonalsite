@@ -18,31 +18,41 @@ My research interests involve designing the next generation of interactive hardw
 * **September 2020** -- Moved to Pittsburgh and started my PhD at CMU-->
 
 <br/>
-<h2 id="research">research</h2>
+<h2 id="research" style="color: rgb(3, 81, 158);">research</h2>
 <hr style="margin-top:0;margin-bottom:0.5rem;border-width:thick;border-top: 3px solid rgb(3, 81, 158);"> 
 
 <br/>
 
 <table>
 <!-- <tr>
-    <td></td>
+    <td><img src="{{ site.baseurl }}assets/EverRing.gif" style="margin: 0 auto;"></td>
     <td><strong>N. DeVrio</strong>, C. Harrison, <em> EverRing: Powering Highly-Capable Ring Devices with Headset RF Energy</em>, In Proceedings of the ACM Conference on Human Factors in Computing. (CHI), 2026.</td>
 </tr>
 <tr>
-    <td></td>
+    <td><img src="{{ site.baseurl }}assets/EclipseTouch.gif" style="margin: 0 auto;"></td>
     <td>*V. Mollyn, <strong>*N. DeVrio</strong>, C. Harrison, <em>  EclipseTouch: Touch Segmentation on Ad Hoc Surfaces using Worn Infrared Shadow Casting </em>, Proceedings of the ACM Symposium on User Interface Software and Technology. (UIST), 2025.</td>
 </tr>
 <tr>
-    <td></td>
+    <td><img src="{{ site.baseurl }}assets/VelociTrack.gif" style="margin: 0 auto;"></td>
     <td><strong>N. DeVrio</strong>, V. Mollyn, C. Harrison, <em> VelociTrack: Touch Input On Uninstrumented Surfaces Using High-Speed Headset Cameras</em>, Proceedings of the ACM Symposium on User Interface Software and Technology. (UIST), 2025.</td>
 </tr>
 <tr>
-    <td></td>
-    <td><strong>N. DeVrio</strong>, R. Boldu, E. Whitmire, W. Kienzle, <em> Contextra: Detecting Object Grasps With Low-Power Cameras and Sensor Fusion On the Wrist</em>, arXiv 2025.</td>
-</tr> -->
+    <td><img src="{{ site.baseurl }}assets/Contextra.gif" style="margin: 0 auto;"></td>
+    <td><strong>N. DeVrio</strong>, R. Boldu, E. Whitmire, W. Kienzle, <em> Contextra: Detecting Object Grasps With Low-Power Cameras and Sensor Fusion On the Wrist</em>, arXiv 2025.</td> 
+</tr>-->
 <tr>
-    <td><a href="https://www.youtube.com/watch?v=4uGOYUv-kN4" target="_blank"><img src="{{ site.baseurl }}assets/reelfeel_gif.gif" style="margin: 0 auto;"></a></td>
-    <td><strong>N. DeVrio</strong>, C. Harrison, <a class="ref" href="https://dl.acm.org/doi/10.1145/3706598.3713615" target="_blank"><em> Reel Feel: Rich Haptic XR Experiences Using an Active, Worn, Multi-String Device.</em></a>, In Proceedings of the ACM Conference on Human Factors in Computing. (CHI), 2025.</td>
+    <td><a href="https://www.youtube.com/watch?v=4uGOYUv-kN4" target="_blank"><img src="{{ site.baseurl }}assets/ReelFeelCHI25.gif" style="margin: 0 auto;"></a></td>
+    <td>
+        <div class="paper_award">
+            <div>
+                <strong>N. DeVrio</strong>, C. Harrison, <a class="ref" href="https://dl.acm.org/doi/10.1145/3706598.3713615" target="_blank"><em> Reel Feel: Rich Haptic XR Experiences Using an Active, Worn, Multi-String Device.</em></a>, In Proceedings of the ACM Conference on Human Factors in Computing. (CHI), 2025.
+            </div>
+            <div class="award">
+                <img src="{{ site.baseurl }}assets/award_sm.png" style="margin: 0 .5em 0 .5em; width: 5%;"> 
+                <b>Popular Choice Best Demo Award Honorable Mention</b>
+            </div>
+        </div>
+    </td>
 </tr>
 <tr>
     <td><a href="https://www.youtube.com/watch?v=AHh2vYQVb_8" target="_blank"><img src="{{ site.baseurl }}assets/SmartPoserUIST23.gif" style="margin: 0 auto;"></a></td>
@@ -72,10 +82,27 @@ My research interests involve designing the next generation of interactive hardw
 
 
 <!-- <br/>
-<h2 id="projects">projects</h2>
-<hr style="margin-top:0;margin-bottom:0.5rem;border-width:thick;border-top: 3px solid red;"> 
+<h2 id="projects" style="color: rgb(220, 0, 0);">projects</h2>
+<hr style="margin-top:0;margin-bottom:0.5rem;border-width:thick;border-top: 3px solid rgb(220, 0, 0);"> 
 <br/>
-_rebuilding this section, check back soon!_
+
+<div class="project_row">
+    <div class="project_column">
+        <div class="project_container">
+            <img src="{{ site.baseurl }}assets/r6_pic_sm.jpg"/>Squirrel
+        </div>
+    </div>
+    <div class="project_column">
+        <div class="project_container">
+            <img src="{{ site.baseurl }}assets/r6_pic_sm.jpg"/>Squirrel
+        </div>
+    </div>
+    <div class="project_column">
+        <div class="project_container">
+            <img src="{{ site.baseurl }}assets/r6_pic_sm.jpg"/>Squirrel
+        </div>
+    </div>
+</div> 
 
 
 <br/>
