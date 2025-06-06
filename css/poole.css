@@ -364,19 +364,19 @@ tbody tr:nth-child(odd) th {
 
 .award_icon {
   margin: 0 .5em 0 0; 
-  min-width: 1.5em; 
-  max-width: 1.5em;
+  min-width: 1.5rem; 
+  max-width: 1.5rem;
 }
 
 .icon {
   margin: 0 .5em 0 0; 
-  min-width: 1.0em; 
-  max-width: 1.0em;
+  min-width: 1.0rem; 
+  max-width: 1.0rem;
 }
 
 .xbox {
-  min-width: 1.0em; 
-  max-width: 1.0em;
+  min-width: 1.0rem; 
+  max-width: 1.0rem;
   cursor: pointer;
 }
 
