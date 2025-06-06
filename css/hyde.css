@@ -138,8 +138,8 @@ a.sidebar-nav-item:focus,
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
-    margin-right: 4rem;
+    margin-left: 18.5rem;
+    /* margin-right: 1rem; */
   }
 }
 
@@ -149,5 +149,5 @@ a.sidebar-nav-item:focus,
 }
 .theme-base-0d .content a,
 .theme-base-0d .related-posts li a:hover {
-  color: #cccccc;
+  color: #515151;
 }
