@@ -119,7 +119,7 @@ My research interests involve designing the next generation of interactive hardw
 </div>
 
 <table>
-<!-- <tr>
+<tr>
     <td><img src="{{ site.baseurl }}assets/EverRing.gif" style="margin: 0 auto;"></td>
     <td>
         <div class="paper_items">
@@ -135,9 +135,9 @@ My research interests involve designing the next generation of interactive hardw
                 </div>
             </div>
             <div>
-                <em>In Proceedings of the ACM Conference on Human Factors in Computing. (CHI), 2026.</em>
+                <em>To appear at UbiComp/ISWC '25: Proceedings of the ACM International Symposium on Wearable Computers.</em>
             </div>
-            <div class="author_list">
+            <!-- <div class="author_list">
                 <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/pdf_icon.png" class="icon">
@@ -183,7 +183,7 @@ My research interests involve designing the next generation of interactive hardw
                     </div>
                     Website
                 </div>
-            </div>
+            </div> -->
         </div>
     </td>
 </tr>
@@ -206,9 +206,9 @@ My research interests involve designing the next generation of interactive hardw
                 </div>
             </div>
             <div>
-                <em>UIST '25: Proceedings of the ACM Symposium on User Interface Software and Technology</em>
+                <em>To appear at UIST '25: Proceedings of the ACM Symposium on User Interface Software and Technology</em>
             </div>
-            <div class="author_list">
+            <!-- <div class="author_list">
                 <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/pdf_icon.png" class="icon">
@@ -254,11 +254,11 @@ My research interests involve designing the next generation of interactive hardw
                     </div>
                     Website
                 </div>
-            </div>
+            </div> -->
         </div>
     </td>
 </tr>
-<tr>
+<!-- <tr>
     <td><img src="{{ site.baseurl }}assets/VelociTrack.gif" style="margin: 0 auto;"></td>
     <td>
         <div class="paper_items">
@@ -328,7 +328,7 @@ My research interests involve designing the next generation of interactive hardw
             </div>
         </div>
     </td>
-</tr>
+</tr> -->
 <tr>
     <td><img src="{{ site.baseurl }}assets/Contextra.gif" style="margin: 0 auto;"></td>
     <td>
@@ -351,9 +351,9 @@ My research interests involve designing the next generation of interactive hardw
                 </div>
             </div>
             <div>
-                <em>MobileHCI '25: In Proceedings of the ACM Conference on Mobile Human-Computer Interaction</em>
+                <em>To appear at MobileHCI '25: In Proceedings of the ACM Conference on Mobile Human-Computer Interaction</em>
             </div>
-            <div class="author_list">
+            <!-- <div class="author_list">
                 <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/pdf_icon.png" class="icon">
@@ -381,10 +381,10 @@ My research interests involve designing the next generation of interactive hardw
                     </div>
                     BibTeX
                 </div>
-            </div>
+            </div> -->
         </div>
     </td>
-</tr> -->
+</tr>
 <tr>
     <td><img src="{{ site.baseurl }}assets/ReelFeelCHI25.gif" style="margin: 0 auto;"></td>
     <td>
