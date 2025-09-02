@@ -209,7 +209,8 @@ My research interests involve designing the next generation of interactive hardw
             <div>
                 <em>To appear at UbiComp/ISWC '25: Proceedings of the ACM International Symposium on Wearable Computers.</em>
             </div>
-            <!-- <div class="author_list">
+            <div class="author_list">
+                <a href="{{ site.baseurl }}papers/everring_devrio.pdf" target="_blank">
                 <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/pdf_icon.png" class="icon">
@@ -219,7 +220,8 @@ My research interests involve designing the next generation of interactive hardw
                     </div>
                     PDF
                 </div>
-                <div class="supplement">
+                </a>
+                <!-- <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/video_icon.png" class="icon">
                     </div>
@@ -254,8 +256,8 @@ My research interests involve designing the next generation of interactive hardw
                         <img src="{{ site.baseurl }}assets/website_icon_w.png" class="icon">
                     </div>
                     Website
-                </div>
-            </div> -->
+                </div> -->
+            </div>
         </div>
     </td>
 </tr>
@@ -280,7 +282,8 @@ My research interests involve designing the next generation of interactive hardw
             <div>
                 <em>To appear at UIST '25: Proceedings of the ACM Symposium on User Interface Software and Technology</em>
             </div>
-            <!-- <div class="author_list">
+            <div class="author_list">
+                <a href="{{ site.baseurl }}papers/eclipsetouch_mollyn_devrio.pdf" target="_blank">
                 <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/pdf_icon.png" class="icon">
@@ -290,7 +293,8 @@ My research interests involve designing the next generation of interactive hardw
                     </div>
                     PDF
                 </div>
-                <div class="supplement">
+                </a>
+                <!-- <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/video_icon.png" class="icon">
                     </div>
@@ -325,8 +329,8 @@ My research interests involve designing the next generation of interactive hardw
                         <img src="{{ site.baseurl }}assets/website_icon_w.png" class="icon">
                     </div>
                     Website
-                </div>
-            </div> -->
+                </div> -->
+            </div>
         </div>
     </td>
 </tr>
@@ -354,7 +358,8 @@ My research interests involve designing the next generation of interactive hardw
             <div>
                 <em>To appear at MobileHCI '25: In Proceedings of the ACM Conference on Mobile Human-Computer Interaction</em>
             </div>
-            <!-- <div class="author_list">
+            <div class="author_list">
+                <a href="{{ site.baseurl }}papers/contextra_devrio.pdf" target="_blank">
                 <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/pdf_icon.png" class="icon">
@@ -364,7 +369,8 @@ My research interests involve designing the next generation of interactive hardw
                     </div>
                     PDF
                 </div>
-                <div class="supplement">
+                </a>
+                <!-- <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/video_icon.png" class="icon">
                     </div>
@@ -381,8 +387,8 @@ My research interests involve designing the next generation of interactive hardw
                         <img src="{{ site.baseurl }}assets/bib_icon_w.png" class="icon">
                     </div>
                     BibTeX
-                </div>
-            </div> -->
+                </div> -->
+            </div>
         </div>
     </td>
 </tr>
@@ -760,7 +766,7 @@ My research interests involve designing the next generation of interactive hardw
 
 <!-- <br/>
 <h2 id="projects" style="color: rgb(220, 0, 0);">projects</h2>
-<hr style="margin-top:0;margin-bottom:0.5rem;border-width:thick;border-top: 3px solid rgb(220, 0, 0);"> 
+<hr style="margin-top:0;margin-bottom:0.5rem;border-width:thick;border-top: 4px solid rgb(220, 0, 0);"> 
 <br/>
 
 <div class="project_row">
@@ -784,7 +790,7 @@ My research interests involve designing the next generation of interactive hardw
 
 <br/>
 <h2 id="resources">resources</h2>
-<hr style="margin-top:0;margin-bottom:0.5rem;border-width:thick;border-top: 3px solid grey"> 
+<hr style="margin-top:0;margin-bottom:0.5rem;border-width:thick;border-top: 4px solid grey"> 
 
 <br/> -->
 
