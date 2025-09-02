@@ -6,7 +6,7 @@ description: nathan's website
 
 <img src="{{ site.baseurl }}assets/propic_lab40.jpg" class="center" id="about"/>
 
-**Hi, my name is Nathan.** I am a PhD student at the <a class="link" href="https://www.hcii.cmu.edu/" target="_blank">Human-Computer Interaction Institute</a> at Carnegie Mellon University. I am advised by <a class="link" href="https://www.chrisharrison.net/" target="_blank">Chris Harrison</a> and am a member of the <a class="link" href="http://www.figlab.com/" target="_blank">Future Interfaces Group</a>.
+**Hi, my name is Nathan.** I am a PhD student at the <a class="link" href="https://www.hcii.cmu.edu/" target="_blank">Human-Computer Interaction Institute</a> at Carnegie Mellon University. I am advised by <a class="link" href="https://www.chrisharrison.net/" target="_blank">Chris Harrison</a> and am a member of the <a class="link" href="http://www.figlab.com/" target="_blank">Future Interfaces Group</a>. <a style="color: rgb(3, 81, 158);">**I am on the job market for academic or industry research positions starting in 2026.**</a>
 
 My research interests involve designing the next generation of interactive hardware technologies to address existing limitations in performance, capability, and usability. New interfaces should not just fix the shortcomings reported by users of current ones but also enable previously impossible and delightful forms of interaction. Application domains I touch upon include context-aware computing, AR/VR, and smart environments.
 
@@ -119,6 +119,78 @@ My research interests involve designing the next generation of interactive hardw
 </div>
 
 <table>
+
+<!-- <tr>
+    <td><img src="{{ site.baseurl }}assets/VelociTrack.gif" style="margin: 0 auto;"></td>
+    <td>
+        <div class="paper_items">
+            <div>
+                <b> VelociTrack: Touch Input On Uninstrumented Surfaces Using High-Speed Headset Cameras</b>
+            </div>
+            <div class="author_list">
+                <div class="author me_author">
+                    <b>N. DeVrio</b>
+                </div>
+                <div class="author">
+                    V. Mollyn
+                </div>
+                <div class="author">
+                    C. Harrison
+                </div>
+            </div>
+            <div>
+                <em>CHI '26: Proceedings of the CHI Conference on Human Factors in Computing Systems</em>
+            </div>
+            <div class="author_list">
+                <div class="supplement">
+                    <div class="suppImgBase">
+                        <img src="{{ site.baseurl }}assets/pdf_icon.png" class="icon">
+                    </div>
+                    <div class="suppImgHover">
+                        <img src="{{ site.baseurl }}assets/pdf_icon_w.png" class="icon">
+                    </div>
+                    PDF
+                </div>
+                <div class="supplement">
+                    <div class="suppImgBase">
+                        <img src="{{ site.baseurl }}assets/video_icon.png" class="icon">
+                    </div>
+                    <div class="suppImgHover">
+                        <img src="{{ site.baseurl }}assets/video_icon_w.png" class="icon">
+                    </div>
+                    Video
+                </div>
+                <div class="supplement">
+                    <div class="suppImgBase">
+                        <img src="{{ site.baseurl }}assets/bib_icon.png" class="icon">
+                    </div>
+                    <div class="suppImgHover">
+                        <img src="{{ site.baseurl }}assets/bib_icon_w.png" class="icon">
+                    </div>
+                    BibTeX
+                </div>
+                <div class="supplement">
+                    <div class="suppImgBase">
+                        <img src="{{ site.baseurl }}assets/code_icon.png" class="icon">
+                    </div>
+                    <div class="suppImgHover">
+                        <img src="{{ site.baseurl }}assets/code_icon_w.png" class="icon">
+                    </div>
+                    Code
+                </div>
+                <div class="supplement">
+                    <div class="suppImgBase">
+                        <img src="{{ site.baseurl }}assets/website_icon.png" class="icon">
+                    </div>
+                    <div class="suppImgHover">
+                        <img src="{{ site.baseurl }}assets/website_icon_w.png" class="icon">
+                    </div>
+                    Website
+                </div>
+            </div>
+        </div>
+    </td>
+</tr> -->
 <tr>
     <td><img src="{{ site.baseurl }}assets/EverRing.gif" style="margin: 0 auto;"></td>
     <td>
@@ -258,77 +330,6 @@ My research interests involve designing the next generation of interactive hardw
         </div>
     </td>
 </tr>
-<!-- <tr>
-    <td><img src="{{ site.baseurl }}assets/VelociTrack.gif" style="margin: 0 auto;"></td>
-    <td>
-        <div class="paper_items">
-            <div>
-                <b> VelociTrack: Touch Input On Uninstrumented Surfaces Using High-Speed Headset Cameras</b>
-            </div>
-            <div class="author_list">
-                <div class="author me_author">
-                    <b>N. DeVrio</b>
-                </div>
-                <div class="author">
-                    V. Mollyn
-                </div>
-                <div class="author">
-                    C. Harrison
-                </div>
-            </div>
-            <div>
-                <em>UIST '25: Proceedings of the ACM Symposium on User Interface Software and Technology</em>
-            </div>
-            <div class="author_list">
-                <div class="supplement">
-                    <div class="suppImgBase">
-                        <img src="{{ site.baseurl }}assets/pdf_icon.png" class="icon">
-                    </div>
-                    <div class="suppImgHover">
-                        <img src="{{ site.baseurl }}assets/pdf_icon_w.png" class="icon">
-                    </div>
-                    PDF
-                </div>
-                <div class="supplement">
-                    <div class="suppImgBase">
-                        <img src="{{ site.baseurl }}assets/video_icon.png" class="icon">
-                    </div>
-                    <div class="suppImgHover">
-                        <img src="{{ site.baseurl }}assets/video_icon_w.png" class="icon">
-                    </div>
-                    Video
-                </div>
-                <div class="supplement">
-                    <div class="suppImgBase">
-                        <img src="{{ site.baseurl }}assets/bib_icon.png" class="icon">
-                    </div>
-                    <div class="suppImgHover">
-                        <img src="{{ site.baseurl }}assets/bib_icon_w.png" class="icon">
-                    </div>
-                    BibTeX
-                </div>
-                <div class="supplement">
-                    <div class="suppImgBase">
-                        <img src="{{ site.baseurl }}assets/code_icon.png" class="icon">
-                    </div>
-                    <div class="suppImgHover">
-                        <img src="{{ site.baseurl }}assets/code_icon_w.png" class="icon">
-                    </div>
-                    Code
-                </div>
-                <div class="supplement">
-                    <div class="suppImgBase">
-                        <img src="{{ site.baseurl }}assets/website_icon.png" class="icon">
-                    </div>
-                    <div class="suppImgHover">
-                        <img src="{{ site.baseurl }}assets/website_icon_w.png" class="icon">
-                    </div>
-                    Website
-                </div>
-            </div>
-        </div>
-    </td>
-</tr> -->
 <tr>
     <td><img src="{{ site.baseurl }}assets/Contextra.gif" style="margin: 0 auto;"></td>
     <td>
