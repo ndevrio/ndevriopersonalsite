@@ -334,7 +334,7 @@ tbody tr:nth-child(odd) th {
   -webkit-transition: all .1s ease-in;
   transition: all .1s ease-in;
   text-align: center;
-  padding: 5%;
+  padding: 1.5%;
 }
 
 .project_container:hover {
@@ -342,8 +342,15 @@ tbody tr:nth-child(odd) th {
   -o-transition: all .1s ease-in;
   -webkit-transition: all .1s ease-in;
   transition: all .1s ease-in;
-  background-color: #eeeeee;
+  background-color: #bbbbbb;
   /* color: #ffffff; */
+}
+
+.gallery_img {
+  margin: 0 0 0rem;
+  object-fit: cover;
+  height: 15rem;
+  width: 20rem;
 }
 
 
