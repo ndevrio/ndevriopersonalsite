@@ -24,7 +24,7 @@ My research interests involve designing the next generation of interactive hardw
 <br/>
 
 
-<template id="reelfeel_template"><div class="tex_background"><div class="tex_border bibtexModalContent">
+<template id="reelfeel_template"><div class="tex_background"><div id="texBoxClick" class="tex_border bibtexModalContent">
 <div class="tex_top">
     <h4>BibTeX</h4>
     <img src="{{ site.baseurl }}assets/xbox.png" class="xbox" onclick="removeTex()">
@@ -41,8 +41,19 @@ My research interests involve designing the next generation of interactive hardw
     month = april,
     year = {2025}
 }
-</code></pre></div></div></template>
-<template id="smartposer_template"><div class="tex_background"><div class="tex_border bibtexModalContent">
+</code></pre>
+<div class="supplement" onclick="copyText(); ">
+    <div class="suppImgBase">
+        <img src="{{ site.baseurl }}assets/copy_icon.png" class="icon">
+    </div>
+    <div class="suppImgHover">
+        <img src="{{ site.baseurl }}assets/copy_icon_w.png" class="icon">
+    </div>
+    <div id="copyButtonText">
+    Copy
+    </div>
+</div></div></div></template>
+<template id="smartposer_template"><div class="tex_background"><div id="texBoxClick" class="tex_border bibtexModalContent">
 <div class="tex_top">
     <h4>BibTeX</h4>
     <img src="{{ site.baseurl }}assets/xbox.png" class="xbox" onclick="removeTex()">
@@ -59,8 +70,19 @@ My research interests involve designing the next generation of interactive hardw
     month = oct,
     year = {2023}
 }
-</code></pre></div></div></template>
-<template id="discoband_template"><div class="tex_background"><div class="tex_border bibtexModalContent">
+</code></pre>
+<div class="supplement" onclick="copyText(); ">
+    <div class="suppImgBase">
+        <img src="{{ site.baseurl }}assets/copy_icon.png" class="icon">
+    </div>
+    <div class="suppImgHover">
+        <img src="{{ site.baseurl }}assets/copy_icon_w.png" class="icon">
+    </div>
+    <div id="copyButtonText">
+    Copy
+    </div>
+</div></div></div></template>
+<template id="discoband_template"><div class="tex_background"><div id="texBoxClick" class="tex_border bibtexModalContent">
 <div class="tex_top">
     <h4>BibTeX</h4>
     <img src="{{ site.baseurl }}assets/xbox.png" class="xbox" onclick="removeTex()">
@@ -77,8 +99,19 @@ My research interests involve designing the next generation of interactive hardw
     month = nov,
     year = {2022}
 }
-</code></pre></div></div></template>
-<template id="controllerpose_template"><div class="tex_background"><div class="tex_border bibtexModalContent">
+</code></pre>
+<div class="supplement" onclick="copyText(); ">
+    <div class="suppImgBase">
+        <img src="{{ site.baseurl }}assets/copy_icon.png" class="icon">
+    </div>
+    <div class="suppImgHover">
+        <img src="{{ site.baseurl }}assets/copy_icon_w.png" class="icon">
+    </div>
+    <div id="copyButtonText">
+    Copy
+    </div>
+</div></div></div></template>
+<template id="controllerpose_template"><div class="tex_background"><div id="texBoxClick" class="tex_border bibtexModalContent">
 <div class="tex_top">
     <h4>BibTeX</h4>
     <img src="{{ site.baseurl }}assets/xbox.png" class="xbox" onclick="removeTex()">
@@ -95,8 +128,19 @@ My research interests involve designing the next generation of interactive hardw
     month = april,
     year = {2022}
 }
-</code></pre></div></div></template>
-<template id="realtime_template"><div class="tex_background"><div class="tex_border bibtexModalContent">
+</code></pre>
+<div class="supplement" onclick="copyText(); ">
+    <div class="suppImgBase">
+        <img src="{{ site.baseurl }}assets/copy_icon.png" class="icon">
+    </div>
+    <div class="suppImgHover">
+        <img src="{{ site.baseurl }}assets/copy_icon_w.png" class="icon">
+    </div>
+    <div id="copyButtonText">
+    Copy
+    </div>
+</div></div></div></template>
+<template id="realtime_template"><div class="tex_background"><div id="texBoxClick" class="tex_border bibtexModalContent">
 <div class="tex_top">
     <h4>BibTeX</h4>
     <img src="{{ site.baseurl }}assets/xbox.png" class="xbox" onclick="removeTex()">
@@ -113,7 +157,18 @@ My research interests involve designing the next generation of interactive hardw
     month = feb,
     year = {2021}
 }
-</code></pre></div></div></template>
+</code></pre>
+<div class="supplement" onclick="copyText(); ">
+    <div class="suppImgBase">
+        <img src="{{ site.baseurl }}assets/copy_icon.png" class="icon">
+    </div>
+    <div class="suppImgHover">
+        <img src="{{ site.baseurl }}assets/copy_icon_w.png" class="icon">
+    </div>
+    <div id="copyButtonText">
+    Copy
+    </div>
+</div></div></div></template>
 
 <div id="texHolder">
 </div>
@@ -437,7 +492,7 @@ My research interests involve designing the next generation of interactive hardw
                     Video
                 </div>
                 </a>
-                <div class="supplement" onclick="showTex('reelfeel_template'); ">
+                <div class="supplement" onclick="showTex(event, 'reelfeel_template'); ">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/bib_icon.png" class="icon">
                     </div>
@@ -512,7 +567,7 @@ My research interests involve designing the next generation of interactive hardw
                     Video
                 </div>
                 </a>
-                <div class="supplement" onclick="showTex('smartposer_template'); ">
+                <div class="supplement" onclick="showTex(event, 'smartposer_template'); ">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/bib_icon.png" class="icon">
                     </div>
@@ -584,7 +639,7 @@ My research interests involve designing the next generation of interactive hardw
                     Video
                 </div>
                 </a>
-                <div class="supplement" onclick="showTex('discoband_template'); ">
+                <div class="supplement" onclick="showTex(event, 'discoband_template'); ">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/bib_icon.png" class="icon">
                     </div>
@@ -668,7 +723,7 @@ My research interests involve designing the next generation of interactive hardw
                     Video
                 </div>
                 </a>
-                <div class="supplement" onclick="showTex('controllerpose_template'); ">
+                <div class="supplement" onclick="showTex(event, 'controllerpose_template'); ">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/bib_icon.png" class="icon">
                     </div>
@@ -740,7 +795,7 @@ My research interests involve designing the next generation of interactive hardw
                     Video
                 </div>
                 </a>
-                <div class="supplement" onclick="showTex('realtime_template'); ">
+                <div class="supplement" onclick="showTex(event, 'realtime_template'); ">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/bib_icon.png" class="icon">
                     </div>

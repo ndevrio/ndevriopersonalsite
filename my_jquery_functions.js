@@ -23,7 +23,7 @@ $(document).ready(function(){
 
     // Set up content an array of locations
     $('.sidebar-nav').find('a').each(function(){
-        contentTop.push( $( $(this).attr('href') ).offset().top );
+        contentTop.push( $( $(this).attr('href') ).top );
         $(this).addClass('active')
     })
 

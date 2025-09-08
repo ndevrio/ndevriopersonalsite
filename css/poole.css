@@ -353,6 +353,28 @@ tbody tr:nth-child(odd) th {
   width: 20rem;
 }
 
+.zoom_img {
+  max-height: 35vw;
+  margin-bottom: 1rem;
+}
+
+.gallery_icon {
+  min-width: 1.0rem; 
+  max-width: 1.0rem;
+  margin: 0;
+}
+
+.gallery_border {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  /* width: 100%; */
+  /* max-width: 600px; */
+  /* min-width: fit-content; */
+  /* max-height: 100%; */
+  /* overflow: auto; */
+}
+
 
 .paper_items {
   display: flex;
@@ -387,6 +409,33 @@ tbody tr:nth-child(odd) th {
   cursor: pointer;
 }
 
+.gallery_xbox {
+  min-width: 1.0rem; 
+  max-width: 1.0rem;
+  cursor: pointer;
+  margin: 0 0 1rem;
+}
+
+.gallery_img_list {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.gallery_caption_list {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  margin-bottom: 1rem;
+}
+
 .author_list {
   display: flex;
   flex-direction: row;
@@ -404,7 +453,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .supplement {
-  display: flex;
+  display: inline-flex;
   align-items: center; 
   margin: 0 .5em .5em 0;
   padding: 0 .5em 0 .5em;
@@ -425,6 +474,13 @@ tbody tr:nth-child(odd) th {
   background-color: #eeeeee;
   border-radius: .5em;
   cursor: pointer;
+}
+
+#suppGallery.supplement {
+  padding: 1em;
+}
+#suppGallery.supplement:hover {
+  background-color: green;
 }
 
 .supplement .suppImgHover {
@@ -458,6 +514,13 @@ tbody tr:nth-child(odd) th {
   padding: 0px;
   
   z-index: 999;
+}
+
+.x_top {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  margin: 0;
 }
 
 .tex_top {
