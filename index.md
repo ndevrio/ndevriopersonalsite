@@ -30,7 +30,96 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
 
 <br/>
 
-
+<template id="everring_template"><div class="tex_background"><div id="texBoxClick" class="tex_border bibtexModalContent">
+<div class="tex_top">
+    <h4>BibTeX</h4>
+    <img src="{{ site.baseurl }}assets/xbox.png" class="xbox" onclick="removeTex()">
+</div>
+<pre class="tex_code"><code id="texCode">@inproceedings{DeVrio_2025_ReelFeel,
+    author = {DeVrio, Nathan and Harrison, Chris},
+    title = {Reel Feel: Rich Haptic XR Experiences Using an Active, Worn, Multi-String Device},
+    isbn = {9798400713941},
+    url = {https://doi.org/10.1145/3706598.3713615},
+    doi = {10.1145/3706598.3713615},
+    booktitle = {Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    month = april,
+    year = {2025}
+}
+</code></pre>
+<div class="supplement" onclick="copyText(); ">
+    <div class="suppImgBase">
+        <img src="{{ site.baseurl }}assets/copy_icon.png" class="icon">
+    </div>
+    <div class="suppImgHover">
+        <img src="{{ site.baseurl }}assets/copy_icon_w.png" class="icon">
+    </div>
+    <div id="copyButtonText">
+    Copy
+    </div>
+</div></div></div></template>
+<template id="eclipsetouch_template"><div class="tex_background"><div id="texBoxClick" class="tex_border bibtexModalContent">
+<div class="tex_top">
+    <h4>BibTeX</h4>
+    <img src="{{ site.baseurl }}assets/xbox.png" class="xbox" onclick="removeTex()">
+</div>
+<pre class="tex_code"><code id="texCode">@inproceedings{DeVrio_2025_ReelFeel,
+    author = {DeVrio, Nathan and Harrison, Chris},
+    title = {Reel Feel: Rich Haptic XR Experiences Using an Active, Worn, Multi-String Device},
+    isbn = {9798400713941},
+    url = {https://doi.org/10.1145/3706598.3713615},
+    doi = {10.1145/3706598.3713615},
+    booktitle = {Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    month = april,
+    year = {2025}
+}
+</code></pre>
+<div class="supplement" onclick="copyText(); ">
+    <div class="suppImgBase">
+        <img src="{{ site.baseurl }}assets/copy_icon.png" class="icon">
+    </div>
+    <div class="suppImgHover">
+        <img src="{{ site.baseurl }}assets/copy_icon_w.png" class="icon">
+    </div>
+    <div id="copyButtonText">
+    Copy
+    </div>
+</div></div></div></template>
+<template id="contextra_template"><div class="tex_background"><div id="texBoxClick" class="tex_border bibtexModalContent">
+<div class="tex_top">
+    <h4>BibTeX</h4>
+    <img src="{{ site.baseurl }}assets/xbox.png" class="xbox" onclick="removeTex()">
+</div>
+<pre class="tex_code"><code id="texCode">@inproceedings{DeVrio_2025_Contextra,
+    author = {DeVrio, Nathan and Boldu, Roger and Whitmire, Eric and Kienzle, Wolf},
+    title = {Contextra: Detecting Object Grasps With Low-Power Cameras and Sensor Fusion On the Wrist},
+    url = {https://doi.org/10.1145/3743741},
+    doi = {10.1145/3743741},
+    journal = {Proc. ACM Hum.-Comput. Interact.},
+    volume = {9},
+    number = {5},
+    month = sep,
+    articleno = {MHCI006},
+    numpages = {25},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    year = {2025}
+}
+</code></pre>
+<div class="supplement" onclick="copyText(); ">
+    <div class="suppImgBase">
+        <img src="{{ site.baseurl }}assets/copy_icon.png" class="icon">
+    </div>
+    <div class="suppImgHover">
+        <img src="{{ site.baseurl }}assets/copy_icon_w.png" class="icon">
+    </div>
+    <div id="copyButtonText">
+    Copy
+    </div>
+</div></div></div></template>
 <template id="reelfeel_template"><div class="tex_background"><div id="texBoxClick" class="tex_border bibtexModalContent">
 <div class="tex_top">
     <h4>BibTeX</h4>
@@ -283,7 +372,8 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                     PDF
                 </div>
                 </a>
-                <!-- <div class="supplement">
+                <!-- <a href="https://www.youtube.com/watch?v=4uGOYUv-kN4" target="_blank">
+                    <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/video_icon.png" class="icon">
                     </div>
@@ -292,7 +382,8 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                     </div>
                     Video
                 </div>
-                <div class="supplement">
+                </a>
+                <div class="supplement" onclick="showTex(event, 'everring_template'); ">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/bib_icon.png" class="icon">
                     </div>
@@ -356,7 +447,8 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                     PDF
                 </div>
                 </a>
-                <!-- <div class="supplement">
+                <!-- <a href="https://www.youtube.com/watch?v=4uGOYUv-kN4" target="_blank">
+                <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/video_icon.png" class="icon">
                     </div>
@@ -365,7 +457,8 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                     </div>
                     Video
                 </div>
-                <div class="supplement">
+                </a>
+                <div class="supplement" onclick="showTex(event, 'eclipsetouch_template'); ">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/bib_icon.png" class="icon">
                     </div>
@@ -373,8 +466,8 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                         <img src="{{ site.baseurl }}assets/bib_icon_w.png" class="icon">
                     </div>
                     BibTeX
-                </div>
-                <div class="supplement">
+                </div> -->
+                <!-- <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/code_icon.png" class="icon">
                     </div>
@@ -418,7 +511,11 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                 </div>
             </div>
             <div>
-                <em>To appear at MobileHCI '25: In Proceedings of the ACM Conference on Mobile Human-Computer Interaction</em>
+                <em>MobileHCI '25: In Proceedings of the ACM Conference on Mobile Human-Computer Interaction</em>
+            </div>
+            <div class="award">
+                <img src="{{ site.baseurl }}assets/trophy_sm.png" class="award_icon"> 
+                <b>Best Paper Award</b>
             </div>
             <div class="author_list">
                 <a href="{{ site.baseurl }}papers/contextra_devrio.pdf" target="_blank">
@@ -432,7 +529,8 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                     PDF
                 </div>
                 </a>
-                <!-- <div class="supplement">
+                <!-- <a href="https://www.youtube.com/watch?v=4uGOYUv-kN4" target="_blank">
+                <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/video_icon.png" class="icon">
                     </div>
@@ -441,7 +539,8 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                     </div>
                     Video
                 </div>
-                <div class="supplement">
+                </a> -->
+                <div class="supplement" onclick="showTex(event, 'contextra_template'); ">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/bib_icon.png" class="icon">
                     </div>
@@ -449,7 +548,7 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                         <img src="{{ site.baseurl }}assets/bib_icon_w.png" class="icon">
                     </div>
                     BibTeX
-                </div> -->
+                </div>
             </div>
         </div>
     </td>
