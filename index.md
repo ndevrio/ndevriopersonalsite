@@ -64,16 +64,16 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
     <h4>BibTeX</h4>
     <img src="{{ site.baseurl }}assets/xbox.png" class="xbox" onclick="removeTex()">
 </div>
-<pre class="tex_code"><code id="texCode">@inproceedings{DeVrio_2025_ReelFeel,
-    author = {DeVrio, Nathan and Harrison, Chris},
-    title = {Reel Feel: Rich Haptic XR Experiences Using an Active, Worn, Multi-String Device},
-    isbn = {9798400713941},
-    url = {https://doi.org/10.1145/3706598.3713615},
-    doi = {10.1145/3706598.3713615},
-    booktitle = {Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},
+<pre class="tex_code"><code id="texCode">@inproceedings{Mollyn_2025_EclipseTouch,
+    author = {Mollyn, Vimal and DeVrio, Nathan and Harrison, Chris},
+    title = {EclipseTouch: Touch Segmentation on Ad Hoc Surfaces using Worn Infrared Shadow Casting},
+    isbn = {9798400720376},
+    url = {https://doi.org/10.1145/3746059.3747743},
+    doi = {10.1145/3746059.3747743},
+    booktitle = {Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology},
     publisher = {Association for Computing Machinery},
     address = {New York, NY, USA},
-    month = april,
+    month = sept,
     year = {2025}
 }
 </code></pre>
@@ -419,7 +419,7 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
     <td>
         <div class="paper_items">
             <div>
-                <b> EclipseTouch: Touch Segmentation on Ad Hoc Surfaces using Worn Infrared Shadow Casting </b>
+                <a class="ref" href="https://dl.acm.org/doi/10.1145/3746059.3747743" target="_blank"><b> EclipseTouch: Touch Segmentation on Ad Hoc Surfaces using Worn Infrared Shadow Casting </b></a>
             </div>
             <div class="author_list">
                 <div class="author">
@@ -433,7 +433,7 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                 </div>
             </div>
             <div>
-                <em>To appear at UIST '25: Proceedings of the ACM Symposium on User Interface Software and Technology</em>
+                <em>UIST '25: Proceedings of the ACM Symposium on User Interface Software and Technology</em>
             </div>
             <div class="author_list">
                 <a href="{{ site.baseurl }}papers/eclipsetouch_mollyn_devrio.pdf" target="_blank">
@@ -447,7 +447,7 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                     PDF
                 </div>
                 </a>
-                <!-- <a href="https://www.youtube.com/watch?v=4uGOYUv-kN4" target="_blank">
+                <a href="https://www.youtube.com/watch?v=wNrG2cG2CBY" target="_blank">
                 <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/video_icon.png" class="icon">
@@ -466,7 +466,7 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                         <img src="{{ site.baseurl }}assets/bib_icon_w.png" class="icon">
                     </div>
                     BibTeX
-                </div> -->
+                </div>
                 <!-- <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/code_icon.png" class="icon">
