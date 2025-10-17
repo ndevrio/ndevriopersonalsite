@@ -35,16 +35,16 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
     <h4>BibTeX</h4>
     <img src="{{ site.baseurl }}assets/xbox.png" class="xbox" onclick="removeTex()">
 </div>
-<pre class="tex_code"><code id="texCode">@inproceedings{DeVrio_2025_ReelFeel,
+<pre class="tex_code"><code id="texCode">@inproceedings{DeVrio_2025_EverRing,
     author = {DeVrio, Nathan and Harrison, Chris},
-    title = {Reel Feel: Rich Haptic XR Experiences Using an Active, Worn, Multi-String Device},
-    isbn = {9798400713941},
-    url = {https://doi.org/10.1145/3706598.3713615},
-    doi = {10.1145/3706598.3713615},
-    booktitle = {Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},
+    title = {EverRing: Powering Battery-Free, Highly-Capable Smart Rings with Headset RF Energy},
+    isbn = {9798400714818},
+    url = {https://doi.org/10.1145/3715071.3750420},
+    doi = {10.1145/3715071.3750420},
+    booktitle = {Proceedings of the 2025 ACM International Symposium on Wearable Computers},
     publisher = {Association for Computing Machinery},
     address = {New York, NY, USA},
-    month = april,
+    month = october,
     year = {2025}
 }
 </code></pre>
@@ -347,7 +347,7 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
     <td>
         <div class="paper_items">
             <div>
-                <b> EverRing: Powering Highly-Capable Ring Devices with Headset RF Energy</b>
+                <a class="ref" href="https://dl.acm.org/doi/10.1145/3715071.3750420" target="_blank"><b> EverRing: Powering Highly-Capable Ring Devices with Headset RF Energy</b></a>
             </div>
             <div class="author_list">
                 <div class="author me_author">
@@ -358,7 +358,7 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                 </div>
             </div>
             <div>
-                <em>To appear at UbiComp/ISWC '25: Proceedings of the ACM International Symposium on Wearable Computers.</em>
+                <em>UbiComp/ISWC '25: Proceedings of the ACM International Symposium on Wearable Computers.</em>
             </div>
             <div class="author_list">
                 <a href="{{ site.baseurl }}papers/everring_devrio.pdf" target="_blank">
@@ -372,7 +372,7 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                     PDF
                 </div>
                 </a>
-                <!-- <a href="https://www.youtube.com/watch?v=4uGOYUv-kN4" target="_blank">
+                <a href="https://www.youtube.com/watch?v=K06_bMqREyg" target="_blank">
                     <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/video_icon.png" class="icon">
@@ -392,7 +392,7 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                     </div>
                     BibTeX
                 </div>
-                <div class="supplement">
+                <!-- <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/code_icon.png" class="icon">
                     </div>
