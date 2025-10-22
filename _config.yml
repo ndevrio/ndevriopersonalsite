@@ -10,7 +10,6 @@ relative_permalinks: false
 title:            Nathan DeVrio
 description:      "ph.d. student in human-computer interaction"
 url:              https://www.ndevrio.com
-baseurl:          /
 
 github:
   repo:           https://github.com/riopelln/ndevriopersonalsite
