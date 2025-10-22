@@ -1,7 +1,7 @@
-<!-- ---
-layout: page
-title: 
---- -->
+---
+layout: default
+title: Gallery
+---
 
 <div>
   <h1>Hiking photo gallery</h1>

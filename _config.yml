@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+permalink:        none
 relative_permalinks: false
 
 # Setup

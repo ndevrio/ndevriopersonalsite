@@ -1,7 +1,7 @@
-<!-- ---
+---
 layout: page
 title: 
---- -->
+---
 
 <div class="post">
   <h1 class="post-title">Using NFC pins as GPIO on Seeeduino XIAO boards</h1>
