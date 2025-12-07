@@ -4,7 +4,7 @@ title: Gallery
 ---
 
 <div>
-  <h1>Hiking photo gallery</h1>
+  <h1 id="hiking_top">Hiking photo gallery</h1>
 </div>
 
 <template id='gallery_template'><div class="tex_background"><div id="texBoxClick" class="gallery_border">
@@ -13,11 +13,11 @@ title: Gallery
 </div>
 <img src="{{ site.baseurl }}assets/hiking/hiking_1.JPEG" class="zoom_img" id="hiking_img">
 <div class="gallery_caption_list">
-    <div>Great Falls, MD</div>
-    <div>December, 2019</div>
+    <div id="caption_location">Great Falls, MD</div>
+    <div id="caption_date">December, 2019</div>
 </div>
 <div class="gallery_img_list">
-    <div id="suppGallery" class="supplement" onclick="advanceHikingImage(-1);">
+    <div id="suppGallery" class="supplement" onclick="advanceHikingImage(1);">
         <!-- <img src="{{ site.baseurl }}assets/xbox.png" class="gallery_icon"> -->
         <div class="suppImgBase">
             <img src="{{ site.baseurl }}assets/left_arrow.png" class="gallery_icon">
@@ -26,7 +26,7 @@ title: Gallery
             <img src="{{ site.baseurl }}assets/left_arrow_w.png" class="gallery_icon">
         </div>
     </div>
-    <div id="suppGallery" class="supplement" onclick="advanceHikingImage(1);">
+    <div id="suppGallery" class="supplement" onclick="advanceHikingImage(-1);">
         <!-- <img src="{{ site.baseurl }}assets/xbox.png" class="gallery_icon"> -->
         <div class="suppImgBase">
             <img src="{{ site.baseurl }}assets/right_arrow.png" class="gallery_icon">
@@ -38,9 +38,21 @@ title: Gallery
 </div>
 </div></div></template>
 
+<template id='row_template'>
+    <div class="project_row">
+    <div class="project_column"><div id="cont_col1" class="project_container"><img id="img_col1" class="gallery_img"/></div></div>
+    <div class="project_column"><div id="cont_col2" class="project_container"><img id="img_col2" class="gallery_img"/></div></div>
+    <div class="project_column"><div id="cont_col3" class="project_container"><img id="img_col3" class="gallery_img"/></div></div>
+    </div>
+</template>
+
 <div id="texHolder">
 </div>
 
+<div id="rowHolder">
+</div>
+
+<!--
 <div class="project_row">
 <div class="project_column"><div class="project_container" onclick="showHiking(event, 'gallery_template', 1); "><img src="{{ site.baseurl }}assets/hiking/hiking_1.JPEG" class="gallery_img"/></div></div>
 <div class="project_column"><div class="project_container" onclick="showHiking(event, 'gallery_template', 2); "><img src="{{ site.baseurl }}assets/hiking/hiking_2.JPEG" class="gallery_img"/></div></div>
@@ -419,4 +431,4 @@ title: Gallery
 <div class="project_row">
 <div class="project_column"><div class="project_container" onclick="showHiking(event, 'gallery_template', 226); "><img src="{{ site.baseurl }}assets/hiking/hiking_226.JPEG" class="gallery_img"/></div></div>
 <div class="project_column"><div class="project_container" onclick="showHiking(event, 'gallery_template', 227); "><img src="{{ site.baseurl }}assets/hiking/hiking_227.JPEG" class="gallery_img"/></div></div>
-</div>
+</div>-->
