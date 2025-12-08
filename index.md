@@ -986,17 +986,20 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
 <div class="project_row">
     <div class="project_column">
         <div class="project_container">
-            <img src="{{ site.baseurl }}assets/r6_pic_sm.jpg"/>Squirrel
+            <img class="project_img" src="{{ site.baseurl }}assets/squi_sm.jpg"/>
+            <div class="project_title"><b>Squirrel</b></div>
         </div>
     </div>
     <div class="project_column">
         <div class="project_container">
-            <img src="{{ site.baseurl }}assets/r6_pic_sm.jpg"/>Squirrel
+            <img class="project_img" src="{{ site.baseurl }}assets/squi_sm.jpg"/>
+            <div class="project_title"><b>Squirrel</b></div>
         </div>
     </div>
     <div class="project_column">
         <div class="project_container">
-            <img src="{{ site.baseurl }}assets/r6_pic_sm.jpg"/>Squirrel
+            <img class="project_img" src="{{ site.baseurl }}assets/stars.jpg"/>
+            <div class="project_title"><b>Squirrel</b></div>
         </div>
     </div>
 </div> 
@@ -1006,6 +1009,40 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
 <h2 id="resources">resources</h2>
 <hr style="margin-top:0;margin-bottom:0.5rem;border-width:thick;border-top: 4px solid grey"> 
 
+<ul class="related-posts">
+    <li>
+    <h3>
+        <a href="../apds9500">
+        APDS9500
+        <small>May 28, 2025</small>
+        </a>
+    </h3>
+    </li>
+    <li>
+    <h3>
+        <a href="../apds9500">
+        Bathroom Cabinet Speaker
+        <small>May 28, 2025</small>
+        </a>
+    </h3>
+    </li>
+    <li>
+    <h3>
+        <a href="../apds9500">
+        Wooden Fruits
+        <small>May 28, 2025</small>
+        </a>
+    </h3>
+    </li>
+    <li>
+    <h3>
+        <a href="../apds9500">
+        Yarn Shelf
+        <small>May 28, 2025</small>
+        </a>
+    </h3>
+    </li>
+</ul>
 <br/> -->
 
 <div class="row center" style="margin-bottom: 4rem">
