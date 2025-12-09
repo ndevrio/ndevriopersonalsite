@@ -21,44 +21,33 @@ title:
 
 <div class="related">
   <h2>Other Projects</h2>
+  
   <div class="project_row">
       <div class="project_column">
-          <div class="project_container">
-              <img class="project_img" src="{{ site.baseurl }}assets/squi_sm.jpg"/>
-              <div class="project_title"><b>Squirrel</b></div>
-          </div>
+          <a href="../project-template"><div class="project_container">
+              <img class="project_img" src="{{ site.baseurl }}assets/projects/3d_printer_camera.jpg"/>
+              <div class="project_title"><b>3D Printer Internet Camera</b></div>
+          </div></a>
       </div>
       <div class="project_column">
-          <div class="project_container">
-              <img class="project_img" src="{{ site.baseurl }}assets/squi_sm.jpg"/>
-              <div class="project_title"><b>Squirrel</b></div>
-          </div>
+          <a href="../project-template"><div class="project_container">
+              <img class="project_img" src="{{ site.baseurl }}assets/projects/mitre_workbench.jpg"/>
+              <div class="project_title"><b>Mitre Saw Workbench</b></div>
+          </div></a>
       </div>
       <div class="project_column">
-          <div class="project_container">
-              <img class="project_img" src="{{ site.baseurl }}assets/stars.jpg"/>
-              <div class="project_title"><b>Squirrel</b></div>
-          </div>
+          <a href="../project-template"><div class="project_container">
+              <img class="project_img" src="{{ site.baseurl }}assets/projects/yarn_storage.jpg"/>
+              <div class="project_title"><b>Yarn Storage Cubby</b></div>
+          </div></a>
       </div>
   </div> 
   <div class="project_row">
       <div class="project_column">
-          <div class="project_container">
-              <img class="project_img" src="{{ site.baseurl }}assets/squi_sm.jpg"/>
-              <div class="project_title"><b>Squirrel</b></div>
-          </div>
-      </div>
-      <div class="project_column">
-          <div class="project_container">
-              <img class="project_img" src="{{ site.baseurl }}assets/squi_sm.jpg"/>
-              <div class="project_title"><b>Squirrel</b></div>
-          </div>
-      </div>
-      <div class="project_column">
-          <div class="project_container">
-              <img class="project_img" src="{{ site.baseurl }}assets/stars.jpg"/>
-              <div class="project_title"><b>Squirrel</b></div>
-          </div>
+          <a href="../project-template"><div class="project_container">
+              <img class="project_img" src="{{ site.baseurl }}assets/projects/playbill_box.jpg"/>
+              <div class="project_title"><b>Playbill Box</b></div>
+          </div></a>
       </div>
   </div> 
 </div>
