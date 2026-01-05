@@ -26,7 +26,7 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
 
 <br/>
 <h2 id="research" style="color: rgb(3, 81, 158);">research</h2>
-<hr style="margin-top:0;margin-bottom:0.5rem;border-width:thick;border-top: 4px solid rgb(3, 81, 158);"> 
+<hr style="margin-top:0;margin-bottom:0;border-width:thick;border-top: 4px solid rgb(3, 81, 158);"> 
 
 <br/>
 
@@ -978,36 +978,44 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
 </table>
 
 
-<!-- <br/>
+<!--<br/>
 <h2 id="projects" style="color: rgb(220, 0, 0);">projects</h2>
-<hr style="margin-top:0;margin-bottom:0.5rem;border-width:thick;border-top: 4px solid rgb(220, 0, 0);"> 
+<hr style="margin-top:0;margin-bottom:0;border-width:thick;border-top: 4px solid rgb(220, 0, 0);"> 
 <br/>
 
 <div class="project_row">
     <div class="project_column">
-        <div class="project_container">
-            <img class="project_img" src="{{ site.baseurl }}assets/squi_sm.jpg"/>
-            <div class="project_title"><b>Squirrel</b></div>
-        </div>
+        <a href="../project-template"><div class="project_container">
+            <img class="project_img" src="{{ site.baseurl }}assets/projects/3d_printer_camera.jpg"/>
+            <div class="project_title"><b>3D Printer Internet Camera</b></div>
+        </div></a>
     </div>
     <div class="project_column">
-        <div class="project_container">
-            <img class="project_img" src="{{ site.baseurl }}assets/squi_sm.jpg"/>
-            <div class="project_title"><b>Squirrel</b></div>
-        </div>
+        <a href="../project-template"><div class="project_container">
+            <img class="project_img" src="{{ site.baseurl }}assets/projects/mitre_workbench.jpg"/>
+            <div class="project_title"><b>Mitre Saw Workbench</b></div>
+        </div></a>
     </div>
     <div class="project_column">
-        <div class="project_container">
-            <img class="project_img" src="{{ site.baseurl }}assets/stars.jpg"/>
-            <div class="project_title"><b>Squirrel</b></div>
-        </div>
+        <a href="../project-template"><div class="project_container">
+            <img class="project_img" src="{{ site.baseurl }}assets/projects/yarn_storage.jpg"/>
+            <div class="project_title"><b>Yarn Storage Cubby</b></div>
+        </div></a>
     </div>
 </div> 
+<div class="project_row">
+    <div class="project_column">
+        <a href="../project-template"><div class="project_container">
+            <img class="project_img" src="{{ site.baseurl }}assets/projects/playbill_box.jpg"/>
+            <div class="project_title"><b>Playbill Box</b></div>
+        </div></a>
+    </div>
+</div>
 
 
 <br/>
 <h2 id="resources">resources</h2>
-<hr style="margin-top:0;margin-bottom:0.5rem;border-width:thick;border-top: 4px solid grey"> 
+<hr style="margin-top:0;margin-bottom:2rem;border-width:thick;border-top: 4px solid grey"> 
 
 <ul class="related-posts">
     <li>
@@ -1043,7 +1051,7 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
     </h3>
     </li>
 </ul>
-<br/> -->
+<br/>-->
 
 <div class="row center" style="margin-bottom: 4rem">
     <div class="column">
