@@ -4,18 +4,23 @@ title: Nathan DeVrio
 description: nathan's website
 ---
 
-<img src="{{ site.baseurl }}assets/propic_lab40.jpg" class="center" id="about"/>
+<img src="{{ site.baseurl }}assets/propic_new.jpg" class="center propic" id="about"/>
 
 **Hi, my name is Nathan.** 
 
-I am a PhD student at the <a class="link" href="https://www.hcii.cmu.edu/" target="_blank">Human-Computer Interaction Institute</a> at Carnegie Mellon University. I am advised by <a class="link" href="https://www.chrisharrison.net/" target="_blank">Chris Harrison</a> and am a member of the <a class="link" href="http://www.figlab.com/" target="_blank">Future Interfaces Group</a>. Previously, I conducted research in Meta Reality Lab's <a class="link" href="https://tech.facebook.com/reality-labs/2021/11/inside-reality-labs-meet-the-team-thats-bringing-touch-to-the-digital-world/" target="_blank">input sensing team</a>. <a style="color: rgb(3, 81, 158);">**I am on the job market for academic or industry research positions starting in 2026.**</a>
+I am an incoming Assistant Professor of <a class="link" href="https://dm.lmc.gatech.edu/" target="_blank">Digital Media</a> and <a class="link" href="https://www.ic.gatech.edu/" target="_blank">Interactive Computing</a> at Georgia Tech starting in January 2027. 
+
+I am also currently a final-year PhD candidate at the <a class="link" href="https://www.hcii.cmu.edu/" target="_blank">Human-Computer Interaction Institute</a> at Carnegie Mellon University. I am advised by <a class="link" href="https://www.chrisharrison.net/" target="_blank">Chris Harrison</a> and am a member of the <a class="link" href="http://www.figlab.com/" target="_blank">Future Interfaces Group</a>. Previously, I conducted research in Meta Reality Lab's <a class="link" href="https://tech.facebook.com/reality-labs/2021/11/inside-reality-labs-meet-the-team-thats-bringing-touch-to-the-digital-world/" target="_blank">input sensing team</a>.
 
 My research interests involve designing the next generation of interactive hardware technologies to address existing limitations in performance, capability, and usability. New interfaces should not just fix the shortcomings reported by users of current ones but also enable previously impossible and delightful forms of interaction. The focus of my PhD has been on improving input for intelligent wearable devices by sensing implicit user behaviors. My work has been published at prestigious computer science venues such as ACM <a class="link" href="https://dl.acm.org/conference/chi" target="_blank">CHI</a> and <a class="link" href="https://dl.acm.org/conference/uist" target="_blank">UIST</a>.  
 
 Before coming to CMU, I received my bachelors in computer engineering from the University of Michigan, where I was advised by <a class="link" href="https://www.alansonsample.com/" target="_blank">Alanson Sample</a>. Outside of research, I consider myself an avid maker and am always excited about building new things. In my spare time I like to <a class="link" href="https://www.strava.com/athletes/n_devrio" target="_blank">run</a>, <a class="link" href="./gallery">hike</a>, and play <a class="link" href="https://boardgamegeek.com/user/nario98" target="_blank">board games</a>.
 
-
-
+<div class="call_box">
+    <div class="call_text">
+        I am looking to recruit research assistants starting from Spring 2027 and PhD students starting from Fall 2027!
+    </div>
+</div>
 
 <!--<br/>
 
@@ -290,7 +295,7 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                 </div>
             </div>
             <div>
-                <em>CHI '26: Proceedings of the CHI Conference on Human Factors in Computing Systems</em>
+                <em>To appear at MobileHCI '26: In Proceedings of the ACM Conference on Mobile Human-Computer Interaction</em>
             </div>
             <div class="author_list">
                 <div class="supplement">
@@ -311,7 +316,7 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                     </div>
                     Video
                 </div>
-                <div class="supplement">
+                <!-- <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/bib_icon.png" class="icon">
                     </div>
@@ -337,7 +342,7 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                         <img src="{{ site.baseurl }}assets/website_icon_w.png" class="icon">
                     </div>
                     Website
-                </div>
+                </div> 
             </div>
         </div>
     </td>

@@ -403,6 +403,21 @@ tbody tr:nth-child(odd) th {
   /* overflow: auto; */
 }
 
+.call_box {
+  background-color: #eaeaea;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #03519e;
+  padding: 1rem;
+}
+
+.call_text {
+  color: #03519e;
+  font-weight: bold;
+  font-size: 1.0rem;
+  line-height: 1.3rem;
+}
+
 
 .paper_items {
   display: flex;

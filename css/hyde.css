@@ -56,6 +56,10 @@
   margin-right: auto;
 }
 
+.propic {
+  width: 200px;
+}
+
 /* Sidebar links */
 .sidebar a {
   color: #000;
