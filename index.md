@@ -4,7 +4,7 @@ title: Nathan DeVrio
 description: nathan's website
 ---
 
-<img src="{{ site.baseurl }}assets/propic_new.jpg" class="center propic" id="about"/>
+<img src="{{ site.baseurl }}assets/propic_new.JPG" class="center propic" id="about"/>
 
 **Hi, my name is Nathan.** 
 
