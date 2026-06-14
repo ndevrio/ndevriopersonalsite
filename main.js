@@ -30,11 +30,11 @@ function addRow(startNum) {
     cont.onclick = function () { showHiking(event, 'gallery_template', startNum-2); };
 
     img = newRow.querySelector("#img_col1")
-    img.src = "../assets/hiking/hiking_" + startNum + ".JPEG";
+    img.src = "../assets/hiking/hiking_" + startNum + ".jpg";
     img = newRow.querySelector("#img_col2")
-    img.src = "../assets/hiking/hiking_" + (startNum-1) + ".JPEG";
+    img.src = "../assets/hiking/hiking_" + (startNum-1) + ".jpg";
     img = newRow.querySelector("#img_col3")
-    img.src = "../assets/hiking/hiking_" + (startNum-2) + ".JPEG";
+    img.src = "../assets/hiking/hiking_" + (startNum-2) + ".jpg";
     
     const targetTableBody = document.querySelector('#rowHolder');
     targetTableBody.appendChild(newRow);
@@ -132,7 +132,7 @@ function showHiking(e, parameter, num) {
 
     hikingImageNum = num;
     img = document.getElementById("hiking_img");
-    img.src = "../assets/hiking/hiking_" + String(hikingImageNum) + ".JPEG";
+    img.src = "../assets/hiking/hiking_" + String(hikingImageNum) + ".jpg";
 
     // Update the location and date based on the picture
     setLocation(hikingImageNum);
@@ -174,6 +174,6 @@ function advanceHikingImage(inc) {
     if(hikingImageNum > numLines) { // Max image number (change to number of files in folder)
         hikingImageNum = 1; 
     }
-    document.getElementById("hiking_img").src = "../assets/hiking/hiking_" + String(hikingImageNum) + ".JPEG";
+    document.getElementById("hiking_img").src = "../assets/hiking/hiking_" + String(hikingImageNum) + ".jpg";
     setLocation(hikingImageNum);
 } 
