@@ -295,10 +295,11 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                 </div>
             </div>
             <div>
-                <em>To appear at MobileHCI '26: In Proceedings of the ACM Conference on Mobile Human-Computer Interaction</em>
+                <em>MobileHCI '26: In Proceedings of the ACM Conference on Mobile Human-Computer Interaction</em>
             </div>
             <div class="author_list">
-                <!-- <div class="supplement">
+                <a href="{{ site.baseurl }}papers/velocitrack_devrio.pdf" target="_blank">
+                <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/pdf_icon.png" class="icon">
                     </div>
@@ -307,7 +308,9 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                     </div>
                     PDF
                 </div>
-                <div class="supplement">
+                </a>
+                <a href="https://www.youtube.com/watch?v=yiul4vFNyhA" target="_blank">
+                    <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/video_icon.png" class="icon">
                     </div>
@@ -315,7 +318,8 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
                         <img src="{{ site.baseurl }}assets/video_icon_w.png" class="icon">
                     </div>
                     Video
-                </div> -->
+                </div>
+                </a>
                 <!-- <div class="supplement">
                     <div class="suppImgBase">
                         <img src="{{ site.baseurl }}assets/bib_icon.png" class="icon">
