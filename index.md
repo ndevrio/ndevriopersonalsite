@@ -276,6 +276,80 @@ Before coming to CMU, I received my bachelors in computer engineering from the U
 
 <table>
 
+<!-- <tr>
+    <td>
+        <img src="{{ site.baseurl }}assets/TrigRing.gif" style="margin: 0 auto;">
+    </td>
+    <td>
+        <div class="paper_items">
+            <div>
+                <b> TrigRing: Using A Low-Power Sensing Ring to Trigger Continuous Personal Context Recognition</b>
+            </div>
+            <div class="author_list">
+                <div class="author me_author">
+                    <b>N. DeVrio</b>
+                </div>
+                <div class="author">
+                    C. Harrison
+                </div>
+            </div>
+            <div>
+                <em>CHI '27: Proceedings of the CHI Conference on Human Factors in Computing Systems</em>
+            </div>
+            <div class="author_list">
+                <!--<a href="{{ site.baseurl }}papers/velocitrack_devrio.pdf" target="_blank">
+                <div class="supplement">
+                    <div class="suppImgBase">
+                        <img src="{{ site.baseurl }}assets/pdf_icon.png" class="icon">
+                    </div>
+                    <div class="suppImgHover">
+                        <img src="{{ site.baseurl }}assets/pdf_icon_w.png" class="icon">
+                    </div>
+                    PDF
+                </div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=yiul4vFNyhA" target="_blank">
+                    <div class="supplement">
+                    <div class="suppImgBase">
+                        <img src="{{ site.baseurl }}assets/video_icon.png" class="icon">
+                    </div>
+                    <div class="suppImgHover">
+                        <img src="{{ site.baseurl }}assets/video_icon_w.png" class="icon">
+                    </div>
+                    Video
+                </div>
+                </a>
+                <div class="supplement">
+                    <div class="suppImgBase">
+                        <img src="{{ site.baseurl }}assets/bib_icon.png" class="icon">
+                    </div>
+                    <div class="suppImgHover">
+                        <img src="{{ site.baseurl }}assets/bib_icon_w.png" class="icon">
+                    </div>
+                    BibTeX
+                </div>
+                <div class="supplement">
+                    <div class="suppImgBase">
+                        <img src="{{ site.baseurl }}assets/code_icon.png" class="icon">
+                    </div>
+                    <div class="suppImgHover">
+                        <img src="{{ site.baseurl }}assets/code_icon_w.png" class="icon">
+                    </div>
+                    Code
+                </div>
+                <div class="supplement">
+                    <div class="suppImgBase">
+                        <img src="{{ site.baseurl }}assets/website_icon.png" class="icon">
+                    </div>
+                    <div class="suppImgHover">
+                        <img src="{{ site.baseurl }}assets/website_icon_w.png" class="icon">
+                    </div>
+                    Website
+                </div> --
+            </div>
+        </div>
+    </td>
+</tr> -->
 <tr>
     <td><img src="{{ site.baseurl }}assets/VelociTrack.gif" style="margin: 0 auto;"></td>
     <td>
